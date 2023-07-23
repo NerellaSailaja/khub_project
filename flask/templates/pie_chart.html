@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Pie Charts</title>
+    <link rel="stylesheet" type="text/css" href="../static/pie.css">
+</head>
+<body>
+    <h1>Pie Charts</h1>
+    {% for chart, max_value, min_value in pie_charts %}
+    <div class="chart-container">
+        <!-- Display the max and min values -->
+        <p>Max Value: {{ max_value }}</p>
+        <p>Min Value: {{ min_value }}</p>
+
+        <!-- Each pie chart will be displayed dynamically -->
+        {{ chart | safe }}
+    </div>
+    {% endfor %}
+
+    <!-- Link to the home page (index route) or any other desired page -->
+    <li class="nav-item">
+        <a class="nav-link" href="{{ url_for('dot_plot_chart') }}">DOT PLOT CHART</a>
+    </li>
+    
+</body>
+</body>
+</html>

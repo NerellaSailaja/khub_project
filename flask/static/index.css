@@ -1,0 +1,70 @@
+/* Styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center the container horizontally */
+    align-items: center; /* Center the container vertically */
+    height: 100vh; /* Set the body height to the full viewport height */
+}
+
+/* Styling for the container */
+.container {
+    max-width: 800px;
+    padding: 20px;
+    background-color: #f0e1d2; /* Creamy color */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the header */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ff5a5f; /* Reddish color */
+}
+
+/* Styling for the boxes */
+.box {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff; /* White color */
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the links */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF; /* Blue color */
+    font-weight: bold;
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 5px;
+    background-color: #eaf3fa; /* Light blue background color for links */
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #cfe3fa; /* Slightly darker blue on hover */
+}
+
+/* Add a background image */
+body {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK13HL7XxL4jsyVnMDh3jgQejw-AazVMI1bdRh6c0TWJFqNk6SEfNYqCgeP9uVuW21yGk&usqp=CAU');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+

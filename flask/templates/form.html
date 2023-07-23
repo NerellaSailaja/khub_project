@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Education Data Entry Form</title>
+    <link rel="stylesheet" type="text/css" href="../static/form.css">
+</head>
+<body>
+    <h1>Education Data Entry Form</h1>
+    <form action="/form" method="post">
+        <label for="student_name">Student Name:</label>
+        <input type="text" name="student_name" required>
+        <br>
+
+        <label for="age">Age:</label>
+        <input type="number" name="age" required>
+        <br>
+
+        <label for="grade_level">Grade Level:</label>
+        <select name="grade_level" required>
+            <option value="">Select a grade level</option>
+            <option value="1">Grade 1</option>
+            <option value="2">Grade 2</option>
+            <option value="3">Grade 3</option>
+            <option value="4">Grade 4</option>
+            <option value="5">Grade 5</option>
+            <option value="6">Grade 6</option>
+            <option value="7">Grade 7</option>
+            <option value="8">Grade 8</option>
+            <!-- Add more options for grade levels -->
+        </select>
+        <br>
+
+        <label for="school_subject">Favorite School Subject:</label>
+        <select name="school_subject" required>
+            <option value="">Select a favorite school subject</option>
+            <option value="math">Mathematics</option>
+            <option value="science">Science</option>
+            <option value="history">History</option>
+            <option value="english">English</option>
+            <option value="art">Art</option>
+            <option value="music">Music</option>
+            <option value="physical_education">Physical Education</option>
+            <!-- Add more options for favorite school subjects -->
+        </select>
+        <br>
+
+        <label for="extracurricular_activity">Extracurricular Activity:</label>
+        <select name="extracurricular_activity" required>
+            <option value="">Select an extracurricular activity</option>
+            <option value="sports">Sports</option>
+            <option value="drama">Drama Club</option>
+            <option value="chess">Chess Club</option>
+            <option value="debate">Debate Team</option>
+            <option value="scouts">Scouts</option>
+            <option value="music">Music Band</option>
+            <option value="coding">Coding Club</option>
+            <!-- Add more options for extracurricular activities -->
+        </select>
+        <br>
+
+        <!-- Add more input fields or dropdowns for additional data -->
+
+        <input type="submit" value="Submit">
+       
+    </form>
+
+</body>
+</html>

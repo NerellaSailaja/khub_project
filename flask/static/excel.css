@@ -1,0 +1,44 @@
+/* style.css */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Optional: Add styles for the file upload form */
+form {
+    margin-top: 30px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+form input[type="file"] {
+    margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+    display: block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Optional: Add styles for additional elements, such as a message or a progress bar, if needed */
+/* .message {
+    font-size: 16px;
+    color: #007BFF;
+    margin-bottom: 10px;
+} */

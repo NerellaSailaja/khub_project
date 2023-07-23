@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.chart-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.chart-container p {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+}
+
+/* Style the pie charts */
+.chart-container svg {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Style the navigation link */
+.nav-item {
+    list-style: none;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.nav-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.nav-link:hover {
+    background-color: #0056b3;
+}

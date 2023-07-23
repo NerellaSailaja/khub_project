@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Line Graphs</title>
+</head>
+<body>
+    <h1>Line Graphs</h1>
+    {% for line_graph, max_value, min_value in line_graphs %}
+        <div>
+            <p>Column Max Value: {{ max_value }}</p>
+            <p>Column Min Value: {{ min_value }}</p>
+            <div>
+                {{ line_graph|safe }}
+            </div>
+        </div>
+    {% endfor %}
+</body>
+</html>
